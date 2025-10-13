@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tables Example</title>
+<style>
+  body {
+   font-family: "Times New Roman", Times,;
+  }
+
+  h1 {
+    color: black;
+    font-size: 30px;
+  }
+
+  table {
+    border-collapse: collapse;
+    width: 60%;
+    margin-bottom: 40px;
+  }
+
+  th, td {
+    border: 1px solid #5d8aa8;
+    text-align: center;
+    padding: 8px;
+  }
+
+  th {
+    background-color: #4169e1;
+    color: orange;
+  }
+
+  tr:nth-child(even) {
+    background-color: #b2ebf2;
+  }
+
+  tr:nth-child(odd) {
+    background-color: #4682b4;
+    color: white;
+  }
+
+  /* Table 2 specific styling */
+  .table2 th {
+    background-color: #0077d7;
+    color: white;
+  }
+
+  .table2 tr:nth-child(even) {
+    background-color: #e6f0ff;
+    color: black;
+  }
+
+  .table2 tr:nth-child(odd) {
+    background-color: #ffffff;
+    color: black;
+  }
+</style>
+</head>
+<body>
+
+<h1>Table 1</h1>
+<table>
+  <tr>
+    <th>Product</th>
+    <th>Price</th>
+    <th>Quantity</th>
+    <th>Total</th>
+  </tr>
+  <tr>
+    <td>Apples</td>
+    <td>KES 20</td>
+    <td>10</td>
+    <td>KES 200</td>
+  </tr>
+  <tr>
+    <td>Oranges</td>
+    <td>KES 60</td>
+    <td>8</td>
+    <td>KES 480</td>
+  </tr>
+  <tr>
+    <td>Bananas</td>
+    <td>30</td>
+    <td>12</td>
+    <td>KES 360</td>
+  </tr>
+</table>
+
+<h1>Table 2</h1>
+<table class="table2">
+  <tr>
+    <th>Farm</th>
+    <th>Location</th>
+    <th>Contacts</th>
+    <th>Products</th>
+  </tr>
+  <tr>
+    <td>Marks</td>
+    <td>Muranga</td>
+    <td>0723456789</td>
+    <td>Mangos</td>
+  </tr>
+  <tr>
+    <td>James</td>
+    <td>Machakos</td>
+    <td>0721567654</td>
+    <td>Oranges</td>
+  </tr>
+  <tr>
+    <td>Marys</td>
+    <td>Kisii</td>
+    <td>0727123456</td>
+    <td>Ovacado</td>
+  </tr>
+</table>
+
+</body>
+</html>
